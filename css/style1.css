@@ -1,0 +1,256 @@
+/*Aqui es donde he estilizado el header (sin el nav)*/
+
+*{
+    box-sizing: border-box;
+
+}
+nav {
+    background-color: black;
+    justify-content: space-between;  
+}
+
+/*aqui esta seccion donde esta la imagen del fondo*/
+.fondo{
+    padding-bottom: 7%;
+    display: flex;
+    background-color: #333333;
+    padding-top: 4.5%;
+    height: 100%;
+
+}
+
+/*esta es la imagen del fondo*/
+.img-fondo{
+    position:   absolute ;
+    width: 100%;
+    height: 50%;
+}
+
+/*esta es la seccion del texto, que se encuentra por encima de la imagen*/
+.bienvenido {
+    position: relative;
+    background-color: black;
+    width: 50%;
+    height: 100%;
+    left: 50%;
+    margin-top:4%;
+
+}
+
+.fondo{
+    overflow: hidden;
+}
+
+/*el titulo de la seccion*/
+.titulo {
+    color: white;
+    font-family: "Raleway",sans-serif;
+    font-weight: 600;
+    padding-left: 200px;
+    padding-top: 5%;
+    font-size: 40px;
+}
+
+/*parrafo de la seccion*/
+.homenaje {
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    padding-left: 200px;
+    width: 65%;
+
+}
+
+/*enlace a una pagina*/
+h6 {
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+h6 a{
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-weight: lighter;
+    padding-left:30%;
+    text-decoration: none;
+
+}
+
+
+@media(max-width: 1768px){
+    .bienvenido{
+        margin-top: 85px;
+    }
+}
+@media(max-width: 1683px){
+    .bienvenido{
+        margin-top: 85px;
+    }
+}
+@media(max-width: 1532px){
+    .bienvenido{
+        margin-top: 90px;
+    }
+}
+@media(max-width: 1426px){
+    .bienvenido{
+        margin-top: 100px;
+    }
+}
+@media (max-width: 1307px) {
+    .bienvenido{
+
+        width: 800px;
+        left: 39%;
+        margin-top: 80px;
+    }
+}
+@media(max-width: 1276px){
+    .img-fondo{
+        width: 100%;
+        overflow: hidden;
+    }
+    .titulo, .homenaje, h6 a{
+        padding-left: 170px;
+    }
+
+}
+@media(max-width: 1169px){
+    .img-fondo{
+
+        overflow: hidden;
+    }
+    .bienvenido{
+        margin-top: 90px;
+    }
+    .titulo, .homenaje, h6 a{
+        padding-left: 150px;
+    }
+
+}
+@media (max-width: 1070px) {
+    .img-fondo{
+
+        height: 45%;
+    }
+
+    .bienvenido{
+        width: 700px;
+        left: 35%;
+    }
+    .titulo, .homenaje, h6 a{
+        padding-left: 170px;
+    }
+}
+@media (max-width: 952px){
+
+    .img-fondo{
+        height: 40%;
+    }
+    .bienvenido{
+        margin-top: 40px;
+    }
+
+    .tienda h2{
+        font-size: 20px;
+    }
+
+
+    
+}
+@media(max-width: 787px){
+    .img-fondo{
+        height: 35%;
+    }
+    .bienvenido{
+        left: 28%;
+    }
+    .titulo, .homenaje, h6 a{
+        padding-left: 95px;
+    }
+}
+@media(max-width: 693px){
+
+    img.img-fondo{
+      object-fit: cover;
+    }
+    .bienvenido{
+        margin-top: 60px;
+    }
+}
+@media(max-width: 639px){
+    .img-fondo{
+        width: 100%;
+        object-fit: cover;
+    }
+}
+@media (max-width: 587px) {
+    .bienvenido{
+        margin-top: 70px;
+    }
+}
+@media (max-width: 539px){
+    .img-fondo{
+        object-fit: cover;
+    }
+    .bienvenido{
+        margin-top: 70px;
+    }
+    .titulo{
+        font-size: 30px;
+    }
+    .homenaje {
+        font-size: 14px;
+    }
+}
+@media(max-width: 515px){
+    .bienvenido{
+        margin-top: 55px;
+    }
+}
+@media(max-width: 494px){
+    .bienvenido{
+        margin-top: 75px;
+    }
+    .titulo{
+        font-size: 25px;
+    }
+
+    .homenaje{
+        font-size: 13px;
+    }
+}
+@media(max-width: 488px){
+    .bienvenido{
+        margin-top: 70px;
+    }
+}
+@media (max-width: 470px) {
+    .bienvenido{
+        margin-top: 90px;
+    }
+
+    .titulo{
+        font-size: 22px;
+    }
+    .homenaje{
+        font-size: 12px;
+    }
+}
+@media (max-width: 462px) {
+    .titulo, .homenaje, h6 a{
+        padding-left: 55px;
+    }
+}
+@media(max-width: 359px){
+    .img-fondo{
+        height: 260px;
+        overflow: hidden;
+    }
+    .titulo{
+        font-size: 19px;
+    }
+    .homenaje{
+        font-size: 12px;
+    }
+}

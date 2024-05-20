@@ -1,0 +1,161 @@
+/*aqui estilizo la seccion del video*/
+
+.seccion-video{
+    background-color: black;
+    width: 100%;
+    height:100%;
+    padding-top: 100px;
+    text-align: center;
+    justify-self: center;
+    padding-bottom: 20%;
+    font-family: "Raleway", sans-serif;
+
+}
+
+#foto_video {
+    position: absolute;
+    opacity: 60%;
+    right: 5%;
+    z-index: 9;
+
+
+}
+.overlay {
+    position: relative;
+    padding-top: 5%;
+}
+
+#more {
+    color: white; 
+    font-size:medium;
+}
+
+h1#text-video{
+    color: white;
+    font-size: xxx-large;
+    font-weight: 300;
+    word-wrap: normal;
+}
+
+#icono-video{
+    width: 35px;
+    padding-right: 10px;  
+}
+
+#link-video{
+    color: white;
+    font-size:  larger;
+}
+
+
+@media(max-width: 1766px){
+    #foto_video{
+        right: 4%;
+    }
+}
+@media(max-width: 1718px){
+    #foto_video{
+        right: 3%;
+    }
+}
+@media(max-width: 1650px){
+    #foto_video{
+        right: 1%;
+    }
+}
+@media(max-width: 1606px){
+    #foto_video{
+        right: -2%;
+    }
+}
+@media(max-width: 1532px){
+    #foto_video{
+        right: -4%;
+    }
+}
+@media(max-width: 1510px){
+    #foto_video{
+        right: -6%;
+    }
+}
+@media(max-width: 1468px){
+    #foto_video{
+        width: 100%;
+        right: -0%;
+    }
+}
+@media(max-width: 1446px){
+    #foto_video{
+        right: -0.5%;
+    }
+}
+@media (max-width: 785px) {
+    .overlay{
+        padding-top: 3%;
+    }
+
+}
+@media (max-width: 724px) {
+   .overlay {
+       padding-top: 1%;
+   }
+}
+@media (max-width: 673px) {
+  h1#text-video{
+      font-size: 35px;
+  }
+}
+@media (max-width: 554px) {
+  h1#text-video{
+      font-size: 33px;
+  }
+}
+@media (max-width: 535px) {
+  h1#text-video{
+      font-size: 25px;
+  }
+}
+@media (max-width: 462px) {
+  h1#text-video{
+      font-size: 25px;
+  }
+    #link-video{
+        font-size: 20px;
+    }
+    #icono-video{
+        width: 30px;
+        padding-right: 10px;
+    }
+}
+@media (max-width: 445px) {
+  h1#text-video{
+      font-size: 23px;
+  }
+    #icono-video{
+        width: 30px;
+        padding-right: 10px;
+        font-size: 5px;
+    }
+
+    #icono-video  #text{
+        font-size: 5px;
+    }
+}
+@media (max-width: 425px) {
+
+    #foto_video{
+        height: 150px;
+    }
+  h1#text-video{
+      font-size: 20px;
+  }
+    #icono-video{
+        width: 30px;
+        padding-right: 10px;
+        font-size: 5px;
+    }
+
+    #icono-video  #text{
+        font-size: 5px;
+    }
+}

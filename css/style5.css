@@ -1,0 +1,726 @@
+
+
+/*aqui estilizo las imagenes de las peliculas, la seccion quienes somos y el footer*/
+
+
+/* carrusel imagenes */
+
+.carrusel {
+    background-color: black;
+    width: 100%;
+    height: 800px;
+}
+#dune {
+    width: 538px;
+    height: auto;
+    padding-left: 1%;
+}
+#hereditary {
+    width: 506px;
+    height: auto;
+    padding-bottom: 70px;
+    right: 2%;
+}
+#happy_together {
+    width: 538px;
+    height: auto;
+    padding-top: 95px;
+    padding-left: 1%;
+}
+#blade_runner {
+    height: 285px;
+    width: 506px;
+    left: 40%;
+    bottom: 48%;
+}
+#fallen_angels {
+    width: 581px;
+    height: auto;
+    float: right;
+    bottom: 93%;
+    right: 5%;
+}
+#asteroid_city {
+    width: 581px;
+    height: auto;
+    float: right;
+    bottom: 35%;
+    left: 29%;
+}
+
+/* seccion sobre mi */
+
+.about-me{
+    background-color: black;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    font-family: "Raleway", sans-serif;
+}
+#foto-about-me{
+    position: absolute;
+    width: 550px;
+    height: auto;
+    right: 28%;
+}
+.text-about-me{
+    top: 5%;
+    position: relative;
+    color: white;
+    background-color: #404040;
+    width: 23%;
+    height: 70%;
+    text-align: center;
+    left: 30%;
+    z-index: 9;
+    font-size: medium;
+    font-weight: normal;
+}
+.text-about-me p{
+    background-color: #404040;
+    padding-bottom: 10%;
+    padding-left: 15%;
+    width: 80%;
+}
+#parrafo2{
+    padding-bottom: 15%;
+}
+.text-about-me h1{
+    background-color: #404040;
+    padding-top: 7%;
+    padding-bottom: 5%;
+}
+#btn-about-me {
+    padding: 3%;
+    font-size: medium;
+    color: white;
+    background-color: #404040;
+    border: white solid 1px;
+    }
+#btn-about-me:hover {
+    color:#404040;
+    background-color: white;
+    transition: 0.5s;
+}
+
+/* seccion footer */
+footer {
+    background-color: black;
+    opacity: 97%;
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 3%;
+    font-weight: lighter;
+    font-family: "Raleway", sans-serif;
+    line-height: 20px;
+
+}
+footer section{
+    text-align: center;
+    text-decoration: none;
+    width: 50%;
+    padding-bottom: 5%;
+}
+footer h2 {
+    padding-bottom: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+    font-weight: 300;
+}
+footer ul{
+    list-style-type: none;
+    font-weight: 200;
+}
+
+/* responsive solo de las imagenes */
+
+@media (max-width: 1856px){
+    #dune {
+        width: 500px;
+    }
+
+    #hereditary {
+        width: 540px;
+        padding-left: 3%;
+    }
+
+    #happy_together {
+        width: 700px;
+        padding-left: 10%;
+    }
+
+    #blade_runner {
+        width: 506px;
+        padding-top: 5%;
+    }
+
+    #fallen_angels {
+        width: 600px;
+    }
+
+    #asteroid_city {
+        width: 570px;
+        padding-right: 5%;
+    }
+
+}
+@media (max-width: 1747px){
+    #dune {
+        width: 480px;
+    }
+    #fallen_angels {
+        width: 560px;
+    }
+}
+@media (max-width: 1727px){
+    #dune {
+        width: 450px;
+    }
+
+    #hereditary {
+        width: 480px;
+        padding-left: 3%;
+    }
+
+    #happy_together {
+        width: 650px;
+        padding-left: 10%;
+    }
+
+    #blade_runner {
+        width: 450px;
+        padding-top: 5%;
+    }
+
+    #fallen_angels {
+        width: 500px;
+    }
+
+    #asteroid_city {
+        width: 600px;
+        padding-right: 8%;
+    }
+
+}
+@media (max-width: 1587px){
+    #dune {
+        width: 400px;
+    }
+
+    #hereditary {
+        width: 430px;
+        padding-left: 3%;
+    }
+
+    #happy_together {
+        width: 600px;
+        padding-left: 10%;
+    }
+
+    #blade_runner {
+        width: 430px;
+        padding-top: 5%;
+    }
+
+    #fallen_angels {
+        width: 450px;
+    }
+
+    #asteroid_city {
+        width: 550px;
+        padding-right: 8%;
+    }
+
+}
+@media (max-width: 1387px){
+    #dune {
+        width: 380px;
+    }
+
+    #hereditary {
+        width: 400px;
+        padding-left: 3%;
+    }
+
+    #happy_together {
+        width: 480px;
+        padding-left: 10%;
+    }
+
+    #blade_runner {
+        width: 360px;
+        padding-top: 5%;
+    }
+
+    #fallen_angels {
+        width: 370px;
+    }
+
+    #asteroid_city {
+        width: 400px;
+        padding-right: 4%;
+    }
+
+}
+@media (max-width: 1267px){
+    #dune {
+        width: 350px;
+    }
+
+    #hereditary {
+        width: 350px;
+        padding-left: 3%;
+    }
+
+    #happy_together {
+        width: 450px;
+        padding-left: 10%;
+    }
+
+    #blade_runner {
+        width: 350px;
+        height: 250px;
+        padding-top: 5%;
+    }
+
+    #fallen_angels {
+        width: 340px;
+    }
+
+    #asteroid_city {
+        width: 400px;
+        padding-right: 4%;
+    }
+
+}
+@media (max-width: 1157px){
+    #dune {
+        width: 300px;
+    }
+
+    #hereditary {
+        width: 300px;
+        padding-left: 3%;
+    }
+
+    #happy_together {
+        width: 400px;
+        padding-left: 10%;
+    }
+
+    #blade_runner {
+        width: 300px;
+        height: 250px;
+        padding-top: 5%;
+    }
+
+    #fallen_angels {
+        width: 300px;
+    }
+
+    #asteroid_city {
+        width: 370px;
+        padding-right: 4%;
+    }
+
+}
+@media (max-width: 952px){
+   .carrusel{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       height: 100%;
+       padding-bottom: 10%;
+   }
+    #dune{
+        padding-left: 0;
+        width: 400px;
+    }
+    #hereditary{
+        width: 400px;
+        padding-bottom: 0;
+        padding-left: 0;
+        right: 0;
+    }
+    #happy_together{
+        width: 400px;
+        padding-top: 0;
+        padding-left: 0;
+    }
+    #blade_runner{
+        width: 400px;
+        padding-top: 0;
+    }
+    #asteroid_city{
+        width: 400px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #fallen_angels{
+        width: 400px;
+    }
+
+}
+@media (max-width: 506px){
+   .carrusel{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       height: 100%;
+       padding-bottom: 10%;
+   }
+    #dune{
+        padding-left: 0;
+        width: 300px;
+    }
+    #hereditary{
+        width: 300px;
+        padding-bottom: 0;
+        padding-left: 0;
+        right: 0;
+    }
+    #happy_together{
+        width: 300px;
+        padding-top: 0;
+        padding-left: 0;
+    }
+    #blade_runner{
+        width: 300px;
+        padding-top: 0;
+        height: 150px;
+    }
+    #asteroid_city{
+        width: 300px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #fallen_angels{
+        width: 300px;
+    }
+
+}
+@media (max-width: 364px){
+   .carrusel{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       height: 100%;
+       padding-bottom: 10%;
+   }
+    #dune{
+        padding-left: 0;
+        width: 200px;
+    }
+    #hereditary{
+        width: 200px;
+        padding-bottom: 0;
+        padding-left: 0;
+        right: 0;
+    }
+    #happy_together{
+        width: 200px;
+        padding-top: 0;
+        padding-left: 0;
+    }
+    #blade_runner{
+        width: 200px;
+        padding-top: 0;
+        height: 150px;
+    }
+    #asteroid_city{
+        width: 200px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #fallen_angels{
+        width: 200px;
+    }
+
+}
+
+
+/* responsive seccion about-me */
+
+
+@media (max-width: 1656px) {
+    #foto-about-me{
+        width: 530px;
+        right: 25%;
+    }
+    .text-about-me{
+        width: 25%;
+    }
+}
+@media (max-width: 1470px) {
+    #foto-about-me{
+        width: 550px;
+        right: 15%;
+    }
+    .text-about-me{
+        width: 30%;
+    }
+}
+@media (max-width: 1437px) {
+    #foto-about-me{
+        width: 550px;
+        right: 27%;
+    }
+    .text-about-me{
+        height: 80%;
+        width: 30%;
+        left: 20%;
+        padding-bottom: 0%;
+    }
+
+    .about-me{
+        padding-top: 10%;
+    }
+
+    #parrafo2{
+        padding-bottom: 5%;
+    }
+
+}
+@media (max-width: 1227px) {
+    #foto-about-me{
+        width: 550px;
+        right: 15%;
+    }
+    .text-about-me{
+        height: 80%;
+        width: 35%;
+        left: 15%;
+        padding-bottom: 0%;
+    }
+
+    .about-me{
+        padding-top: 10%;
+    }
+
+    #parrafo2{
+        padding-bottom: 5%;
+    }
+
+}
+@media (max-width: 1005px) {
+    #foto-about-me{
+        width: 500px;
+        right: 15%;
+    }
+    .text-about-me{
+        height: 75%;
+        width: 40%;
+        left: 15%;
+        padding-bottom: 0%;
+    }
+
+    .about-me{
+        padding-top: 10%;
+    }
+
+    #parrafo2{
+        padding-bottom: 10%;
+    }
+    .text-about-me p{
+        font-size: 15px;
+    }
+
+    .about-me{
+        height: 100%;
+        padding-bottom: 20%;
+    }
+}
+@media (max-width: 834px) {
+    #foto-about-me{
+        width: 450px;
+        right: 10%;
+    }
+    .text-about-me{
+        height: 65%;
+        width: 45%;
+        left: 10%;
+        padding-bottom: 0%;
+    }
+
+    .about-me{
+        padding-top: 10%;
+    }
+
+    #parrafo2{
+        padding-bottom: 8%;
+    }
+    .text-about-me p{
+        font-size: 14px;
+    }
+
+}
+@media (max-width: 695px) {
+    #foto-about-me{
+        width: 380px;
+        right: 6%;
+    }
+    .text-about-me{
+        height: 55%;
+        width: 50%;
+        left: 8%;
+        padding-bottom: 0%;
+    }
+    .text-about-me h1{
+        font-size: 17px;
+    }
+
+    .about-me{
+        padding-top: 10%;
+    }
+
+    #parrafo2{
+        padding-bottom: 5%;
+    }
+    .text-about-me p{
+        font-size: 13px;
+    }
+
+}
+@media (max-width: 572px) {
+    #foto-about-me{
+        width: 320px;
+        right: 6%;
+    }
+    .text-about-me{
+        height: 50%;
+        width: 55%;
+        left: 8%;
+        padding-bottom: 0%;
+    }
+    .text-about-me h1{
+        font-size: 15px;
+    }
+
+    .about-me{
+        padding-top: 10%;
+    }
+
+    #parrafo2{
+        padding-bottom: 5%;
+    }
+
+    #btn-about-me{
+        font-size: 11px;
+    }
+    .text-about-me p{
+        font-size: 11px;
+        padding-left: 40px;
+    }
+
+}
+@media (max-width: 417px) {
+    #foto-about-me{
+        width: 350px;
+        right: 2%;
+    }
+    .text-about-me{
+        left: 2%;
+    }
+
+
+}
+@media (max-width: 373px) {
+    #foto-about-me{
+        visibility: hidden;
+    }
+    .text-about-me{
+        height: 60%;
+        width: 85%;
+        left: 8%;
+        padding-bottom: 5%;
+    }
+    .text-about-me h1{
+        font-size: 13px;
+    }
+
+    .about-me{
+        padding-top: 10%;
+    }
+
+    #parrafo2{
+        padding-bottom: 10%;
+    }
+
+    #btn-about-me{
+        font-size: 11px;
+    }
+    .text-about-me p{
+        font-size: 11px;
+        padding-left: 40px;
+    }
+
+}
+
+/* responsive del footer */
+
+@media (max-width: 1031px) {
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+@media (max-width: 687px) {
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer h2{
+        font-size: 18px;
+    }
+
+    footer ul{
+        font-size: 15px;
+    }
+
+}
+@media (max-width: 515px) {
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #989696;
+        opacity: 99%;
+    }
+
+    footer h2{
+        font-size: 13px;
+    }
+
+    footer ul{
+        font-size: 13px;
+    }
+
+}
+@media (max-width: 372px) {
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #989696;
+        opacity: 99%;
+    }
+
+    footer h2{
+        font-size: 11px;
+    }
+
+    footer ul{
+        font-size: 11px;
+    }
+
+}

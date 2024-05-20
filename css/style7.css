@@ -1,0 +1,228 @@
+.form-registro{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-top: 17%;
+    margin-right: 10%;
+    font-family: "Raleway", sans-serif;
+}
+
+.form-registro h1{
+    color: #989696;
+    font-family: "Raleway", sans-serif;
+    font-weight: normal;
+    text-align: center;
+    height: 60px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    margin-bottom: 5%;
+    padding-bottom: 5px;
+}
+
+.noValido2{
+    display: none;
+    position: absolute;
+    color: white;
+    margin-top: -1.7%;
+    padding: 20px;
+    padding-right: 20px;
+    width: 21%;
+    border-radius: 5px;
+    font-family: "Raleway", sans-serif;
+    font-weight: lighter;
+}
+
+input[type=password]:focus:invalid + .noValido2{
+    background: url(../img/icons/remove.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position-x: calc(99%);
+    background-position-y:calc(50%);
+    display: block;
+    top: 58%;
+    background-color: rgb(67, 66, 66);
+
+}
+.noValido3{
+    display: none;
+    position: absolute;
+    color: white;
+    margin-top: -1.7%;
+    padding: 20px;
+    padding-right: 20px;
+    width: 21%;
+    border-radius: 5px;
+    font-family: "Raleway", sans-serif;
+    font-weight: lighter;
+
+}
+
+input[type=password]:focus:invalid + .noValido3{
+    background: url(../img/icons/remove.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position-x: calc(99%);
+    background-position-y:calc(50%);
+    display: block;
+    top: 63%;
+    background-color: rgb(67, 66, 66);
+
+}
+
+@media (max-width: 1880px) {
+    input[type=password]:focus:invalid + .noValido2{
+        top: 570px;
+    }input[type=password]:focus:invalid + .noValido3{
+        top: 74%;
+    }
+}@media (max-width: 1748px) {
+    input[type=password]:focus:invalid + .noValido2{
+        top: 540px;
+    }input[type=password]:focus:invalid + .noValido3{
+        top: 590px;
+    }
+}
+@media (max-width: 1850px){
+    .form-registro {
+        margin-right: 8%;
+    }
+}
+@media (max-width: 1597px) {
+    .login-arrival{
+        width: 75%;
+        height: 100%;
+    }
+
+
+}
+@media (max-width: 1527px) {
+    .login-arrival{
+        width: 72%;
+        height: 100%;
+    }
+
+    .form-registro{
+        margin-right: 7%;
+    }
+
+
+}
+@media (max-width: 1449px) {
+    .login-arrival{
+        width: 66%;
+        height: 100%;
+    }
+
+    .form-registro{
+        margin-right: 6%;
+    }
+
+
+}
+@media (max-width: 1371px) {
+    .login-arrival{
+        width: 63%;
+        height: 100%;
+    }
+
+    .form-registro{
+        margin-right: 5%;
+    }
+
+
+}
+@media (max-width: 1265px) {
+    .login-arrival{
+        width: 70%;
+        height: 100%;
+    }
+
+    .form-registro{
+        margin-right: 3%;
+    }
+
+
+}
+@media (max-width: 1185px) {
+
+    .login-logo{
+        margin-top: 5%;
+    }
+    .login-arrival{
+        width: 80%;
+        height: 100%;
+    }
+
+    .form-registro{
+        margin-right: 5%;
+        width: 350px;
+        margin-top: 15%;
+    }
+
+
+}
+@media (max-width: 1103px) {
+
+
+    .login-arrival{
+        width: 85%;
+        height: 100%;
+    }
+
+    .form-registro{
+        margin-right: 6%;
+        width: 300px;
+    }
+
+    .rememberMeContainer{
+        font-size: 14px;
+    }
+
+    .form-registro p{
+        font-size: 14px;
+    }
+
+    .form-registro .link-olvidar {
+        font-size: 14px;
+    }
+
+
+}
+@media (max-width: 981px) {
+    .login-arrival {
+        width: 100%;
+        position: static;
+        padding: 0;
+    }
+
+    .login-logo {
+        width: 20%;
+        left: 40%;
+        margin-top: 5%;
+    }
+
+    .form-registro {
+        width: 500px;
+        margin-bottom: 5%;
+        margin-right: 24%;
+    }
+    .rememberMeContainer{
+        font-size: 20px;
+    }
+
+    .form-registro p{
+        font-size: 20px;
+    }
+
+    .form-registro .link-olvidar {
+        font-size: 20px;
+    }
+
+    .controls{
+        font-size: 20px;
+    }
+
+    .form-registro h1 {
+        font-size: 40px;
+    }
+}

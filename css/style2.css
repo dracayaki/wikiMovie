@@ -1,0 +1,276 @@
+/*aqui estilizo la seccion de la tienda*/
+
+.tienda {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 5px; /* Espacio entre columnas y filas */
+    padding-top: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+
+}
+
+.tienda h2 {
+    padding-bottom: 1%;
+    color: white;
+    font-family:"Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    grid-column: 1 /-1;
+}
+
+article img{
+    width: 360px;
+    height: 490px;
+}
+
+.descripcion-foto {
+    width: 360px;
+    position: relative;
+    background-color: #26201D;
+    bottom: 8%;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.descripcion-foto h3{
+    color: white;
+    font-size: 16px;
+    padding: 3% 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    background-color: #26201D;
+}
+
+.descripcion-foto h4 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: medium;
+    text-align: center;
+}
+
+
+
+/*texto que se muestra al pasar el raton por la descripcion*/
+
+.vista-rapida{
+    color: black;
+    width: 100%;
+    z-index: 20;
+    position: relative;
+    opacity: 0;
+    text-align: center;
+    padding: 5px 0;
+}
+
+article hr {
+    width: 6%;
+    position: relative;
+    left: 47%;
+
+}
+
+.vista-rapida:hover {
+    background-color: white;
+    opacity: 70%;
+    bottom: 27px;
+    transition: 0.5s;
+}
+
+@media(max-width: 1068px){
+    .tienda{
+        overflow-x: hidden;
+    }
+}
+@media (max-width: 1998px){
+    article img{
+        width: 300px;
+        height: 400px;
+    }
+
+    .descripcion-foto{
+        width: 300px;
+    }
+
+    .descripcion-foto h3{
+        font-size: 14px;
+    }
+}
+@media (max-width: 1858px){
+    article img{
+        width: 280px;
+        height: 390px;
+    }
+
+    .descripcion-foto{
+        width: 280px;
+    }
+
+    .descripcion-foto h3{
+        font-size: 13px;
+    }
+}
+@media (max-width: 1767px){
+    article img{
+        width: 260px;
+        height: 370px;
+    }
+
+    .descripcion-foto{
+        width: 260px;
+
+    }
+
+    .descripcion-foto h3{
+        font-size: 13px;
+        height: 50px;
+    }
+}
+@media (max-width: 1639px){
+
+    .tienda {
+        padding-right: 0.5%;
+        padding-left: 0.5%;
+    }
+    article img{
+        width: 250px;
+        height: 350px;
+    }
+
+    .descripcion-foto{
+        width: 250px;
+
+    }
+
+    .descripcion-foto h3{
+        font-size: 13px;
+        height: 45px;
+    }
+}
+@media (max-width: 1639px){
+
+    .tienda {
+        padding-left: 3%;
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+}
+@media (max-width: 1317px){
+
+    .tienda {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+}
+@media (max-width: 1091px){
+
+    .tienda {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+@media (max-width: 952px){
+    .tienda {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    article img{
+        margin-left: 0;
+    }
+}
+@media (max-width: 784px){
+    .tienda {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .tienda article{
+        padding-left: 13%;
+    }
+}
+@media (max-width: 672px){
+
+    .tienda article{
+        padding-left: 8%;
+    }
+
+
+}
+@media (max-width: 610px){
+
+    .tienda article{
+        padding-left: 7px;
+    }
+
+
+}
+@media (max-width: 544px){
+
+    .tienda article{
+        padding-left: 2px;
+    }
+
+
+}
+@media (max-width: 540px){
+
+    .tienda {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .tienda article{
+        padding-left: 20%;
+    }
+
+    .tienda h2{
+        padding-bottom: 5%;
+    }
+
+    article img {
+        width: 300px;
+        height: 400px;
+    }
+
+    .descripcion-foto{
+        width: 300px;
+    }
+}
+@media (max-width: 454px){
+
+    .tienda article{
+        padding-left: 18%;
+    }
+
+    article img{
+        width: 270px;
+        height: 370px;
+    }
+
+    .descripcion-foto{
+        width: 270px;
+    }
+}
+@media (max-width: 384px){
+
+    .tienda article{
+        padding-left: 8%;
+    }
+
+
+}
+@media (max-width: 316px) {
+
+    .tienda article {
+        padding-left: 8%;
+    }
+
+    article img {
+        width: 250px;
+        height: 350px;
+    }
+
+    .descripcion-foto {
+        width: 250px;
+    }
+
+}

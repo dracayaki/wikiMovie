@@ -1,0 +1,437 @@
+/** Aqui es donde he estilizado el  nav (que esta dentro del header)**/
+
+*{
+    padding:0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    background-color: black;
+}
+
+
+
+header{
+    background-color: black;
+   height: 70px;
+}
+
+header ul{
+    color: #ffffff;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    width: 30%;
+    left: 35%;
+    position: relative;
+    padding-top: 27px;
+}
+
+header ul li a:hover{
+    color: rgb(230, 227, 227);
+}
+
+header nav ul li{
+    display: inline;
+    height: 15%;
+    padding-right: 2%;
+    padding-left: 2%;
+    border-right: 1.5px solid rgba(255, 255, 255, 0.78) ;
+}
+
+header nav ul li.li-inicio1{
+    border-left: 1.5px solid rgba(255, 255, 255, 0.78) ;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+header ul li ul{
+    display: block;
+    position: relative;
+}
+
+.logo {
+    padding-top: 5px;
+    width: 55px;
+    position: absolute;
+    margin-left: 2%;
+}
+
+.shop {
+    z-index: 9;
+    position: absolute;
+    width: 35px;
+    left: 96%;
+    top: 15px;
+}
+nav .menu-ham{
+    opacity: 80%;
+    position: absolute;
+    padding-top:15px;
+}
+
+.avatar {
+    position: absolute;
+    width: 32px;
+    top: 15px;
+    left: 94%;
+    z-index: 100;
+    opacity: 90%;
+}
+
+/*Menu desplegable*/
+header nav ul  ul {
+    padding-top: 1.5%;
+    display: none;
+    position:absolute;
+    background:black;
+    left: 50%;
+    width: 160px;
+}
+
+nav ul ul li{
+    float: none;
+    border-right: none;
+    width: 50px;
+}
+
+nav ul ul a{
+    line-height: 200%;
+    padding: 7px 15px;
+
+}
+
+ nav  ul li:hover > ul{
+    display: block;
+     z-index: 9;
+}
+
+.checkbtn{
+    width: 70px;
+    float: right;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+
+
+@media (max-width: 1683px) {
+    .avatar{
+        left: 93.5%;
+    }
+}
+@media (max-width: 1469px){
+    header nav ul{
+        width: 30%;
+        font-size: 15px;
+    }
+}
+@media (max-width: 1377px){
+    ul.menu{
+        width: 34%;
+    }
+}
+@media(max-width:1296px){
+
+    .menu{
+        width: 55%;
+        font-size: 15px;
+    }
+
+    nav{
+        padding-bottom: 5px;
+    }
+
+    .logo{
+        width: 60px;
+        height: 65px;
+        padding-top: 5px;
+    }
+
+    .shop{
+        width: 35px;
+        height: 38px;
+        padding-top: 1px;
+        left: 95%;
+    }
+
+    .avatar {
+        padding-top: 2px;
+        left: 92%;
+    }
+}
+@media (max-width: 1224px){
+    ul.menu{
+        width: 38%;
+        left: 33%;
+    }
+}
+@media(max-width: 1159px){
+    .menu {
+        width: 60%;
+        font-size: 15px;
+    }
+}
+@media(max-width: 1101px){
+    .shop{
+        left: 94%;
+    }
+
+    .avatar{
+        left: 91%;
+    }
+
+}
+@media (max-width: 1088px) {
+    ul.menu {
+        width: 39%;
+    }
+}
+@media(max-width: 1060px){
+   ul.menu{
+       width: 40%;
+   }
+}
+@media(max-width: 1033px){
+   ul.menu{
+        font-size: 14px;
+        width: 40%;
+    }
+
+    .avatar{
+        left: 90%;
+    }
+
+}
+@media(max-width: 985px){
+    .menu{
+        width: 70%;
+    }
+}
+@media (max-width: 966px){
+    .checkbtn{
+        display: block;
+    }
+    .shop{
+        display: none;
+    }
+
+
+    .avatar{
+        left: 88%;
+    }
+
+    .header{
+        height: 20px;
+        background-color: black;
+    }
+
+    ul.menu{
+        margin-top: 60px;
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        left: 100%;
+        z-index: 9;
+    }
+
+    header nav ul li{
+        display: block;
+        border-right: 0;
+    }
+
+    header nav ul li.li-inicio1{
+        border-left: 0;
+    }
+
+    li a:hover, li a.active{
+        background: none;
+    }
+
+    #check:checked ~ ul{
+        left: 0;
+    }
+
+    nav{
+        background-color: black;
+        height: 25px;
+    }
+    .fondo{
+        width: 100%;
+    }
+
+    header nav ul ul{
+       visibility: hidden;
+    }
+
+}
+@media (max-width: 952px){
+    .checkbtn{
+        display: block;
+    }
+    .shop {
+        display: none;
+    }
+    header{
+        height: 55px;
+    }
+    .logo{
+        width: 55px;
+        height: 62px;
+    }
+    .menu {
+        position: fixed;
+        display: block;;
+        left: -500%;
+        text-align: center;
+        width: 100%;
+
+    }
+    .menu li{
+        display: block;
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        height: 150px;
+
+    }
+    header nav ul{
+        margin-top: 25px;
+    }
+    .avatar{
+        left: 88%;
+    }
+    .menu-ham{
+        padding-bottom: 8px;
+    }
+    #checkbtn:hover ~ .menu{
+        left: 0;
+    }
+    .fondo{
+        margin-top: 10px;
+    }
+    .img-fondo{
+        top:100px;
+    }
+}
+@media (max-width: 894px){
+    .avatar{
+        left: 87%;
+    }
+}
+@media (max-width: 821px) {
+    .avatar{
+        left: 86.5%;
+    }
+}
+@media(max-width: 796px){
+    .avatar{
+        left: 86%;
+    }
+    .menu-ham{
+        left: 92%;
+    }
+}
+@media (max-width: 758px) {
+    .avatar{
+        left: 84%;
+    }
+}
+@media (max-width: 664px) {
+    .avatar{
+        left: 83%;
+    }
+}
+@media (max-width: 626px) {
+    .avatar{
+        left: 82%;
+    }
+
+}
+@media (max-width: 594px) {
+    .avatar{
+        left: 81%;
+    }
+
+}
+@media (max-width: 554px) {
+    .avatar{
+        left: 79%;
+    }
+}
+@media (max-width: 503px) {
+    .avatar{
+        left: 78%;
+    }
+    .menu-ham{
+        left: 88%;
+    }
+}
+@media (max-width: 473px) {
+    .avatar{
+        left: 77%;
+    }
+}
+@media (max-width: 452px) {
+    .avatar{
+        left: 75%;
+    }
+    .menu-ham{
+        left: 86%;
+    }
+}
+@media (max-width: 423px) {
+    .avatar{
+        left: 74%;
+    }
+}
+@media (max-width: 401px) {
+    .avatar{
+        left: 72%;
+    }
+}
+@media (max-width: 377px) {
+    .avatar{
+        left: 70%;
+    }
+    .menu-ham{
+        left: 83%;
+    }
+}
+@media (max-width: 353px){
+    .avatar{
+       left: 70%;
+    }
+
+    .menu-ham{
+        left: 83%;
+    }
+}
+@media (max-width: 336px){
+    .avatar{
+        left: 67%;
+    }
+    .menu-ham{
+        left: 83%;
+    }
+}
+@media (max-width: 310px){
+    .avatar{
+        left: 70%;
+    }
+    .menu-ham{
+        left: 83%;
+    }
+}
+@media (max-width: 300px){
+    .avatar{
+        left: 64%;
+    }
+    .menu-ham{
+        left: 83%;
+    }
+}
